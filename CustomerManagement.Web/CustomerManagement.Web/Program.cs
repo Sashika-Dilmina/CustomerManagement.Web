@@ -7,7 +7,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddHttpClient<ICustomerApiClient, CustomerApiClient>(client =>
 {
-    var baseUrl = builder.Configuration["CustomerApi:BasrUrl"]
+    var baseUrl = builder.Configuration["CustomerApi:BaseUrl"]
      ?? throw new InvalidOperationException("CustomerApi:BaseUrl is not configured.");
     client.BaseAddress = new Uri(baseUrl);
 
