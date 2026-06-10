@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\models\\customersavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\models\\customersavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,12 +27,33 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerManagement.Web\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerManagement.Web\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T06:09:36.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Program.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Program.cs",
               "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Program.cs",
               "RelativeToolTip": "CustomerManagement.Web\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-10T05:30:04.781Z",
               "EditorCaption": ""
@@ -55,58 +68,7 @@
               "RelativeToolTip": "CustomerManagement.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-10T05:27:29.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerApiClient.cs",
-              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Services\\CustomerApiClient.cs",
-              "RelativeDocumentMoniker": "CustomerManagement.Web\\Services\\CustomerApiClient.cs",
-              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Services\\CustomerApiClient.cs",
-              "RelativeToolTip": "CustomerManagement.Web\\Services\\CustomerApiClient.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T05:05:33.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerSaveDto.cs",
-              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
-              "RelativeDocumentMoniker": "CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
-              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
-              "RelativeToolTip": "CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T04:27:59.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "CustomerManagement.Web\\Models\\CustomerDto.cs",
-              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerDto.cs",
-              "RelativeToolTip": "CustomerManagement.Web\\Models\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T04:22:56.221Z"
+              "WhenOpened": "2026-06-10T05:27:29.387Z"
             }
           ]
         }
