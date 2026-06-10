@@ -1,7 +1,17 @@
+using CustomerManagement.Web.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient<ICustomerApiClient, CustomerApiClient>(client =>
+{
+    var baseUrl = builder.Configuration["CustomerApi:BasrUrl"]
+     ?? throw new InvalidOperationException("CustomerApi:BaseUrl is not configured.");
+    client.BaseAddress = new Uri(baseUrl);
+
+});
 
 var app = builder.Build();
 
@@ -15,6 +25,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
@@ -22,7 +33,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Customers}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 
