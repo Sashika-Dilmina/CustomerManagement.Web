@@ -103,4 +103,4 @@ D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\CustomerManagement.Web.pdb
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\CustomerManagement.Web.genruntimeconfig.cache
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\ref\CustomerManagement.Web.dll
-D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\ouxh1oi4cf-{0}-taa7ml06rf-taa7ml06rf.gz
+D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\ouxh1oi4cf-{0}-jn5eivonou-jn5eivonou.gz

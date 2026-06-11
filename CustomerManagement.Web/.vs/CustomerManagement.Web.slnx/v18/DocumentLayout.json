@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\models\\customersavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\models\\customersavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|d:\\intern works\\customermanagement.web\\customermanagement.web\\customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25868BE0-301B-D379-3F7F-0B12208C220B}|CustomerManagement.Web\\CustomerManagement.Web.csproj|solutionrelative:customermanagement.web\\services\\customerapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomerSaveDto.cs",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Models\\CustomerSaveDto.cs",
@@ -67,37 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "customers.js",
-              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\wwwroot\\js\\customers.js",
-              "RelativeDocumentMoniker": "CustomerManagement.Web\\wwwroot\\js\\customers.js",
-              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\wwwroot\\js\\customers.js",
-              "RelativeToolTip": "CustomerManagement.Web\\wwwroot\\js\\customers.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-11T07:45:55.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CustomerManagement.Web\\appsettings.Development.json",
-              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\appsettings.Development.json",
-              "RelativeToolTip": "CustomerManagement.Web\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-11T07:35:42.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\appsettings.json",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\appsettings.json",
@@ -105,29 +71,24 @@
               "RelativeToolTip": "CustomerManagement.Web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-11T06:58:27.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2026-06-11T06:58:27.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Program.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Program.cs",
               "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Program.cs",
               "RelativeToolTip": "CustomerManagement.Web\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvwsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvwsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T06:48:23.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Models\\CustomerDto.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Models\\CustomerDto.cs",
@@ -135,8 +96,7 @@
               "RelativeToolTip": "CustomerManagement.Web\\Models\\CustomerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T06:35:41.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T06:35:41.93Z"
             },
             {
               "$type": "Document",
@@ -148,24 +108,40 @@
               "RelativeToolTip": "CustomerManagement.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T06:38:08.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T06:38:08.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "CustomerApiClient.cs",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Services\\CustomerApiClient.cs",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Services\\CustomerApiClient.cs",
               "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Services\\CustomerApiClient.cs",
               "RelativeToolTip": "CustomerManagement.Web\\Services\\CustomerApiClient.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T05:56:52.692Z"
+              "WhenOpened": "2026-06-11T05:56:52.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "customers.js",
+              "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\wwwroot\\js\\customers.js",
+              "RelativeDocumentMoniker": "CustomerManagement.Web\\wwwroot\\js\\customers.js",
+              "ToolTip": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\wwwroot\\js\\customers.js",
+              "RelativeToolTip": "CustomerManagement.Web\\wwwroot\\js\\customers.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-11T07:45:55.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Intern Works\\CustomerManagement.Web\\CustomerManagement.Web\\CustomerManagement.Web\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "CustomerManagement.Web\\Views\\Customers\\Index.cshtml",
@@ -173,8 +149,11 @@
               "RelativeToolTip": "CustomerManagement.Web\\Views\\Customers\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-11T06:38:47.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-11T06:38:47.584Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
