@@ -8,7 +8,9 @@
         this.customerName = ko.observable(data.customerName || "");
         this.address = ko.observable(data.address || "");
         this.dateOfBirth = ko.observable((data.dateOfBirth || "").substring(0, 10));
-        this.customerType = ko.observable(data.customerType || "Personal");
+        this.customerType = ko.observable(
+            data.customerType || data.customerTypeName || "Personal"
+        );
         this.email = ko.observable(data.email || "");
         this.phoneNumber = ko.observable(data.phoneNumber || "");
         this.isActive = ko.observable(data.isActive !== undefined ? data.isActive : true);
@@ -26,6 +28,7 @@
         self.errorMessage = ko.observable("");
         self.errors = ko.observable({});
         self.customerTypes = ["Personal", "Business"];
+     
 
         var modal = new bootstrap.Modal(document.getElementById("customerModal"));
 
@@ -73,6 +76,27 @@
             return Object.keys(e).length === 0;
         }
 
+        self.searchTerm = ko.observable("");
+
+        self.filteredCustomers = ko.computed(function () {
+
+            var search = self.searchTerm().toLowerCase();
+
+            if (!search) {
+                return self.customers();
+            }
+
+            return ko.utils.arrayFilter(
+                self.customers(),
+                function (c) {
+                    return (
+                        (c.customerName || "").toLowerCase().includes(search) ||
+                        (c.customerCode || "").toLowerCase().includes(search) ||
+                        (c.customerType || "").toLowerCase().includes(search)
+                    );
+                }
+            );
+        });
         
         self.saveCustomer = function () {
             var f = self.editing();

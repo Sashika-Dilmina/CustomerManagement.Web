@@ -24,10 +24,21 @@ namespace CustomerManagement.Web.Controllers;
     }
 
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CustomerSaveDto dto) 
+    public async Task<IActionResult> Create([FromBody] CustomerSaveDto dto)
     {
-        var created = await _api.CreateAsync(dto);
-        return created is null ? StatusCode(500) : Json(created);
+        try
+        {
+            var created = await _api.CreateAsync(dto);
+
+            if (created is null)
+                return StatusCode(500, "API returned unsuccessful response");
+
+            return Json(created);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.ToString());
+        }
     }
 
     [HttpPut]

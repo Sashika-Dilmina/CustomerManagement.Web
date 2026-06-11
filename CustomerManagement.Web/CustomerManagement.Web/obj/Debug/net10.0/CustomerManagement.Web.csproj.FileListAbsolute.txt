@@ -25,7 +25,6 @@ D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\scopedcss\projectbundle\CustomerManagement.Web.bundle.scp.css
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\h2yqsw7sqa-{0}-b9sayid5wm-b9sayid5wm.gz
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\evw3q3lpad-{0}-61n19gt1b8-61n19gt1b8.gz
-D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\ouxh1oi4cf-{0}-3r8b2a0bt1-3r8b2a0bt1.gz
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\jxrrw8n76d-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\f8sdba48xz-{0}-bqjiyaj88i-bqjiyaj88i.gz
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\jtc6uyrsq2-{0}-c2jlpeoesf-c2jlpeoesf.gz
@@ -104,3 +103,4 @@ D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\CustomerManagement.Web.pdb
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\CustomerManagement.Web.genruntimeconfig.cache
 D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\ref\CustomerManagement.Web.dll
+D:\Intern Works\CustomerManagement.Web\CustomerManagement.Web\CustomerManagement.Web\obj\Debug\net10.0\compressed\ouxh1oi4cf-{0}-taa7ml06rf-taa7ml06rf.gz

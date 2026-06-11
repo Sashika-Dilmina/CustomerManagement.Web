@@ -1,5 +1,4 @@
-﻿@page
-@model CustomerManagement.Web.Views.Customers.IndexModel
+﻿
 @{
     ViewData["Title"] = "Customers";
 
@@ -15,7 +14,7 @@
 
 <div class="text-muted" data-bind="visible: isLoading" style="display:none">Loading...</div>
 
-<div class="card" data-bind="visible: isLoading()" style="display:none">
+<div class="card" data-bind="visible: !isLoading()" style="display:none">
     <div class="table-responsive">
         <table class="table table-striped table-hover align-middle mb-0">
             <thead>
@@ -24,11 +23,11 @@
                     <th>Date of birth</th><th>Status</th><th class="text-end">Action</th>
                 </tr>
             </thead>
-            <tbody data-bind="fireach: customers">
+            <tbody data-bind="foreach: filteredCustomers">
                 <tr>
                     <td data-bind="text: customerCode"></td>
                     <td data-bind="text: customerName"></td>
-                    <td data-bind="text: customerType"></td>
+                    <td data-bind="text: customerTypeName"></td>
                     <td data-bind="text: $root.formatDate(dateOfBirth)"></td>
                     <td>
                         <span class="badge"
@@ -50,9 +49,14 @@
             </tbody>
         </table>
     </div>
+    <div class="mb-3">
+        <input class="form-control"
+               placeholder="Search customers..."
+               data-bind="value: searchTerm, valueUpdate: 'input'" />
+    </div>
     <div class="card-body text-muted"
-         data-bind="visible: customers().length === 0" style="display:none">
-        No customers yet.
+         data-bind="visible: filteredCustomers().length === 0">
+        No matching customers found.
     </div>
 </div>
 
@@ -103,6 +107,7 @@
                            data-bind="checked: isActive" />
                     <label class="form-check-label" for="isActive">Active</label>
                 </div>
+               
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-light"
