@@ -26,11 +26,21 @@
         self.isLoading = ko.observable(false);
         self.isSaving = ko.observable(false);
         self.errorMessage = ko.observable("");
+        self.successMessage = ko.observable("");
         self.errors = ko.observable({});
         self.customerTypes = ["Personal", "Business"];
      
 
         var modal = new bootstrap.Modal(document.getElementById("customerModal"));
+
+
+        var successToast = new bootstrap.Toast(
+            document.getElementById("successToast")
+        );
+
+        var errorToast = new bootstrap.Toast(
+            document.getElementById("errorToast")
+        );
 
         
         self.formatDate = function (iso) {
@@ -125,8 +135,23 @@
                 });
 
             request
-                .done(function () { modal.hide(); self.loadCustomers(); })
-                .fail(function () { self.errorMessage("Save failed. Check the API and try again."); })
+                .done(function () {
+
+                    modal.hide();
+
+                    self.showSuccess(
+                        self.isEdit()
+                            ? "Customer updated successfully."
+                            : "Customer created successfully."
+                    );
+
+                    self.loadCustomers();
+                })
+                .fail(function () {
+                   self.showError(
+                       "Save failed. Check the API and try again."
+                   );
+               })
                 .always(function () { self.isSaving(false); });
         };
 
@@ -134,12 +159,34 @@
         self.deleteCustomer = function (customer) {
             if (!confirm("Delete " + customer.customerName + "?")) return;
             $.ajax({ url: "/Customers/Delete/" + customer.customerId, method: "DELETE" })
-                .done(function () { self.customers.remove(customer); })
-                .fail(function () { self.errorMessage("Delete failed."); });
+                .done(function () {
+
+                    self.customers.remove(customer);
+
+                    self.showSuccess(
+                        "Customer deleted successfully."
+                    );
+                })
+                .fail(function () {
+                    self.showError(
+                        "Delete failed."
+                    );
+                });
         };
 
         
         self.loadCustomers();
+
+        self.showSuccess = function (message) {
+            self.successMessage(message);
+            successToast.show();
+        };
+
+        self.showError = function (message) {
+            self.errorMessage(message);
+            errorToast.show();
+        };
+
     }
 
     ko.applyBindings(new CustomersViewModel());
